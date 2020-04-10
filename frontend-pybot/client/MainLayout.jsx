@@ -6,6 +6,7 @@ import FontIcon from 'material-ui/FontIcon';
 
 import FullScreen from './FullScreen';
 import Overlay from './Overlay';
+import Info from './Info';
 
 const ContentWrapper = styled.div`
   position: relative;
@@ -99,6 +100,7 @@ export default ({ children, user }) => (
                 </Link>
                 <UserName> { fullName(user) } </UserName>
               </AvatarWrapper>
+              <Info></Info>
             </Sticky>
           </Relative>
           { children }
