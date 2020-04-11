@@ -23,3 +23,5 @@ Run dev server, clients can be requested on localhost:3001.
 npm run client
 ```
 
+Para login hay que instalar los siguientes comandos:
+npm i -S firebase react-with-firebase-auth
