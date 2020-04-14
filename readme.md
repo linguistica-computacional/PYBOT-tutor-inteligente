@@ -1,11 +1,11 @@
-<p align=center>
+------------
 ![](https://img.shields.io/badge/tag-v1.0-blue) 
 ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) 
 ![](https://img.shields.io/dub/l/vibe-d.svg) 
 
 
 ![](https://www.python.org/static/community_logos/python-powered-h-140x182.png) 
-</p>
+
 
 #  PYBOT
 ## Tutor inteligente
