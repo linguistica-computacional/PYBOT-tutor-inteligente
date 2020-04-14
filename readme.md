@@ -1,10 +1,20 @@
 ------------
-![](https://img.shields.io/badge/tag-v1.0-blue) 
-![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) 
-![](https://img.shields.io/dub/l/vibe-d.svg) 
+<p aling="center">
 
+![](https://img.shields.io/badge/tag-v1.0-blue)
+  <a href="http://git.io/col">
+    <img src="https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg" alt="Collaborative Etiquette">
+  </a> 
+  
+  <a href="#">
+    <img src="https://img.shields.io/dub/l/vibe-d.svg" alt="MIT">
+  </a>   
 
-![](https://www.python.org/static/community_logos/python-powered-h-140x182.png) 
+</p>
+
+<p aling="center">
+    <img src="https://www.python.org/static/community_logos/python-powered-h-140x182.png">
+</p> 
 
 
 #  PYBOT
