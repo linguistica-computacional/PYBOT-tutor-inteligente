@@ -1,7 +1,6 @@
 ------------
 <p aling="center">
 
-![](https://img.shields.io/badge/tag-v1.0-blue)
   <a href="http://git.io/col">
     <img src="https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg" alt="Collaborative Etiquette">
   </a> 
