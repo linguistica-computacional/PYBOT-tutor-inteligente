@@ -18,10 +18,10 @@ import Link from '@material-ui/core/Link';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import { mainListItems, secondaryListItems } from './listItems';
 import Chart from './Chart';
-import Deposits from './Deposits';
-import Orders from './Orders';
 
 function Copyright() {
   return (
@@ -150,6 +150,12 @@ export default function Dashboard() {
               <NotificationsIcon />
             </Badge>
           </IconButton>
+          <IconButton color="inherit">            
+              <AccountCircleIcon />            
+          </IconButton>
+          <IconButton color="inherit">            
+              <PowerSettingsNewIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -178,19 +184,7 @@ export default function Dashboard() {
               <Paper className={fixedHeightPaper}>
                 <Chart />
               </Paper>
-            </Grid>
-            {/* Recent Deposits */}
-            <Grid item xs={12} md={4} lg={3}>
-              <Paper className={fixedHeightPaper}>
-                <Deposits />
-              </Paper>
-            </Grid>
-            {/* Recent Orders */}
-            <Grid item xs={12}>
-              <Paper className={classes.paper}>
-                <Orders />
-              </Paper>
-            </Grid>
+            </Grid>            
           </Grid>
           <Box pt={4}>
             <Copyright />
