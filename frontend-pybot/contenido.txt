@@ -1,0 +1,23 @@
+mkdir -p 
+
+mkdir user && touch user/login.js && touch user/register.js && touch user/login.sass && touch user/register.sass && touch user/perfil-edit.js && touch user/perfil-edit.sass && touch user/perfil-economic.js && touch user/perfil-economic.sass
+
+mkdir test-learning && touch test-learning/start.js && touch test-learning/staart.sass && mkdir meetup && touch meetup/meetup.js && touch meetup/meetup.sass && mkdir forum && touch forum/forum.js && touch forum/forum.sass
+
+mkdir statistics && touch statistics/real.js && touch statistics/real.sass && touch statistics/projected.js && touch statistics/projected.sass && touch statistics/report-learning.js && touch statistics/report-learning.sass
+
+mkdir FAQ && touch FAQ/faq.js && touch FAQ/faq.sass && mkdir reward && touch reward/reward.js && touch reward/reward.sass
+
+mkdir project &&
+touch project/opensource.js &&
+touch project/opensource.sass &&
+touch project/challenges.js &&
+touch project/challenges.sass &&
+touch project/reward.js &&
+touch project/reward.sass &&
+
+mkdir  &&
+touch  &&
+
+mkdir  &&
+touch  &&
