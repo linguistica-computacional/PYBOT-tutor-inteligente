@@ -5,10 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Dashboard from './Dashboard';
 
+import { BrowserRouter } from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <Dashboard />
-  </React.StrictMode>,
+  <BrowserRouter>
+    
+    <App />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -22,6 +23,9 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import { mainListItems, secondaryListItems } from './listItems';
 import Chart from './Chart';
+import { Component } from 'react';
+import Routes from './Routes';
+
 
 function Copyright() {
   return (
